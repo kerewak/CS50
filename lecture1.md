@@ -16,3 +16,6 @@ make hello yazarak programımızı derliyoruz.
 make programı bizim için bir derleyicidir.
 
 ./hello ile programı çalıştırıyoruz.
+
+
+terminalde ctrl + L, clear ile eşdeğerdir.
