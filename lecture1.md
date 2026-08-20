@@ -19,3 +19,38 @@ make programı bizim için bir derleyicidir.
 
 
 terminalde ctrl + L, clear ile eşdeğerdir.
+
+
+bool
+char
+double
+float
+int
+long
+string
+...
+
+if (x < y)
+{
+  printf("x is less than y\n");
+}
+
+if'ten sonra boşluk bırakılır stilistik açıdan.
+
+
+if (x < y)
+{
+  printf("x is less than y\n");
+}
+else
+{
+  printf("x is not less than y\n");
+}
+
+
+C'de = karakteri, sağdan sola atama manasına gelirken, Scratch'te eşittir anlamına gelir.
+
+
+
+
+
