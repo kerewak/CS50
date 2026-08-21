@@ -50,6 +50,17 @@ else
 
 C'de = karakteri, sağdan sola atama manasına gelirken, Scratch'te eşittir anlamına gelir.
 
+Mevcut bir değişkeni güncellerken 'İnt' anahtar kelimesini belirtmemize gerek yoktur.
+
+Syntactic sugar: kodlamada aynı şeyi yapmanın genellikle birçok yolu vardır.
+
+counter = counter + 1
+counter += 1;
+counter++;
+
+Değişken adlandırırken genelde int için 'i', char için 'c', string için 's'... olarak adlandırırlar.
+
+Sıfırdan saymaya başlamak döngülerde.
 
 
 
