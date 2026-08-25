@@ -62,6 +62,6 @@ Değişken adlandırırken genelde int için 'i', char için 'c', string için '
 
 Sıfırdan saymaya başlamak döngülerde.
 
-
+Döngü sonsuz döngüye girdiğinde terminalde ctrl + C yapmak kurtarır.
 
 
