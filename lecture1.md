@@ -70,6 +70,7 @@ truncation (kesilme)
 
 floating-point imprecision
 
+clang günümüzde oldukça popüler bir derleyici.
 
 
 
