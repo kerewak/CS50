@@ -64,4 +64,12 @@ Sıfırdan saymaya başlamak döngülerde.
 
 Döngü sonsuz döngüye girdiğinde terminalde ctrl + C yapmak kurtarır.
 
+chunk, block of code.
+
+truncation (kesilme)
+
+floating-point imprecision
+
+
+
 
