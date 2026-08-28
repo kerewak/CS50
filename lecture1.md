@@ -72,5 +72,48 @@ floating-point imprecision
 
 clang günümüzde oldukça popüler bir derleyici.
 
+a.out tarihsel bir isimdir, assembler çıktısına atıfta bulunur.
+
+clang -o hello hello.c -lcs50
+
+./hello
+
+
+preprocessing (ön işleme)
+
+compiling kodu assembly diline çevirir 
+
+assembling Burada her şey makine koduna dönüşüyor.
+
+linking
+
+
+string get_string(string prompt);
+int printf(string format, ...);
+
+
+... birden fazla değişken olabilir demek.
+
+kodumuzdaki bugları bulmak için:
+
+printf
+
+debugger
+
+rubber duck
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
