@@ -14,3 +14,13 @@ Yani bir baytta tüm bitlerin 0 olması, stringin burada sona erdiği anlamına 
 string.h
 ctype.h
 
+main fonksiyonu genellikle 0 döndürür.
+
+echo $? 
+ile 0 döndürüldüğünü görebiliyoruz. 0 Başarı anlamına gelir. Neden hatalara göre farklı sayılar döndürmüyoruz?
+
+
+      key ->
+plaintext -> (cipher) -> ciphertext
+
+cipher metni şifreleyen bir algoritma için kullanılan süslü bir isimdir.
