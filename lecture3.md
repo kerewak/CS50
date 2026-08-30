@@ -30,8 +30,15 @@ Eğer bir algoritmanın üst ve alt sınırları aynıysa, Θ (teta) sembolü ku
 
 data structures
 
+typedef struct
+{
+  string name;
+  string number;
+}
+person;
 
 
+sorting
 
 
 
