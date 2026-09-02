@@ -7,7 +7,7 @@ running time
 O üst sınır en kötü ne olur?
 
 O(n^2)      selection sort, bubble sort
-O(n log n)
+O(n log n)  merge sort
 O(n)        linear search
 O(log n)    binary search
 O(1)
@@ -15,7 +15,7 @@ O(1)
 Ω (omega) bir algoritmanın alt sınırını tanımlamak için kullanılan sembol. En iyi, şanslı durum ne olur?
 
 Ω(n^2)      selection sort
-Ω(n log n)
+Ω(n log n)  merge sort
 Ω(n)        bubble sort
 Ω(log n)
 Ω(1)
@@ -23,7 +23,7 @@ O(1)
 Eğer bir algoritmanın üst ve alt sınırları aynıysa, Θ (teta) sembolü kullanılır.
 
 Θ(n^2)      selection sort
-Θ(n log n)
+Θ(n log n)  merge sort
 Θ(n)
 Θ(log n)
 Θ(1)
@@ -61,6 +61,16 @@ n^2 - 2n + 1
 
 
 recursion
+
+
+
+Merge Sort
+
+
+
+
+
+
 
 
 
