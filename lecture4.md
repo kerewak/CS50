@@ -1,0 +1,1 @@
+hexadecimal, base-16
