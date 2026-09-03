@@ -19,6 +19,8 @@ string'i tanımlarken " " otomatik olarak sona \0 (NUL) karakterini ekler.
 
 string diye bir şey yoktu, char * vardı.
 
+char *s = "HI!";
+printf("%s\n", s);
 
-
+s pointer HI! stringindeki H'nin adresini tutuyor. printf'de *s yazmayıp s yazıyoruz çünkü %s böyle çalışır. *s yazarsak 'H' karakterini ekrana yazdırırdı.
 
