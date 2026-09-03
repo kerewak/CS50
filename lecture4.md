@@ -10,7 +10,9 @@ integer 4 bayttır, ızgarada 4 baytlık kare yani 4 kare kaplar.
 * ampersand'ın tersini yapar. Adrese götürür.
 
 
+pointers
 
+bir pointer bir değerin adresini içeren bir değişkendir.
 
 
 
