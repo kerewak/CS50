@@ -13,8 +13,11 @@ integer 4 bayttır, ızgarada 4 baytlık kare yani 4 kare kaplar.
 pointers
 
 bir pointer bir değerin adresini içeren bir değişkendir.
+pointers 8 baytlık yer kaplar.
 
+string'i tanımlarken " " otomatik olarak sona \0 (NUL) karakterini ekler.
 
+string diye bir şey yoktu, char * vardı.
 
 
 
