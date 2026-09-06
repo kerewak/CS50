@@ -24,3 +24,17 @@ printf("%s\n", s);
 
 s pointer HI! stringindeki H'nin adresini tutuyor. printf'de *s yazmayıp s yazıyoruz çünkü %s böyle çalışır. *s yazarsak 'H' karakterini ekrana yazdırırdı.
 
+
+
+malloc -> memory allocation: bellek tahsisi için kullanılır. Bu belleğin ilk baytının adresini döndürecektir.
+
+free -> malloc'un tam tersi, bir bellek bloğuyla işimiz bittiğinde onu serbest bırakabiliriz.
+
+...
+
+
+#include <stdlib.h>
+
+
+
+
