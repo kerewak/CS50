@@ -36,5 +36,45 @@ free -> malloc'un tam tersi, bir bellek bloğuyla işimiz bittiğinde onu serbes
 #include <stdlib.h>
 
 
+Genel olarak for döngüsündeki koşulumuzun içinde bir fonksiyon çağırmak optimizasyon açısından iyi bir tasarım değil.
+
+
+
+NULL bir pointer'dır, 0 numaralı adres. Bilgisayar belleğinin sol üst köşesini işaret eder diyebiliriz.
+
+
+malloc kullandıktan sonra onu free yapmamız gereklidir
+
+
+Valgrind programı: Kodu inceleyip çalışırken oluşan bellek hatalarını bulacağız.
+
+
+Oscar the Grouch'a ithafen garbage.c kodu.
+
+
+garbage values
+
+
+heap overflow
+
+stack overflow
+
+
+buffer overflow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
