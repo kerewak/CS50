@@ -93,7 +93,7 @@ node;
 bool search(node *tree, int number)
 {
   if (tree = NULL)
-  {
+  { 
     return false;  
   }
   else if (number < tree->number)
@@ -111,11 +111,43 @@ bool search(node *tree, int number)
 }
 
 
+İkili arama algoritmasını uygulamazsak binary search tree bir linked array'e benzer.
+
+O(log n) doğru algoritma kullanılmış binary search tree
 
 
 
+dictionaries
+
+in real life: word | definition
+in computer science: key | value
+
+key is what you look for something, value is what you find by that key.
+
+name => number
 
 
+
+hashing
+
+geniş bir alandan daha basit bir alana indirgemek.
+
+
+hash function
+
+
+hash tables
+
+teorik olarak amaç, sabit zaman O(1) ulaşmaktır.
+
+
+
+node *table[26];
+
+
+Albus -> |     | -> 0
+
+Zacharias -> |     | -> 25
 
 
 
