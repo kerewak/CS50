@@ -60,6 +60,64 @@ ptr
 
 
 
+O(n) linked list'te öğe aramak (stack ve queue)
+
+O(1) linked list'e öğe eklemek (stack)
+
+O(n) linked list'e öğe eklemek (queue), sıralı şekilde öğe eklemek
+
+
+
+
+
+trees
+
+
+
+binary search trees
+
+ikili aramaya ağacın kökü olan en tepesinden başlarız, bu linked list'teki list pointer'a çok benziyor.
+
+
+
+typedef struct node
+{
+  int number;
+  struct node *left;
+  struct node *right;
+}
+node;
+
+
+
+bool search(node *tree, int number)
+{
+  if (tree = NULL)
+  {
+    return false;  
+  }
+  else if (number < tree->number)
+  {
+    return search(tree->left, number);
+  }
+  else if (number > tree->number)
+  {
+    return search(tree->right, number);
+  }
+  else
+  {
+    return true;
+  }  
+}
+
+
+
+
+
+
+
+
+
 
 
 
