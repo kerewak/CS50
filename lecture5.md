@@ -149,6 +149,22 @@ Albus -> |     | -> 0
 
 Zacharias -> |     | -> 25
 
+Arama yapmak O(n)
+
+İyi bir hash function'u O(n/k) hala O(n) sayılır.
+
+
+tries
+
+retrieval'ın kısaltmasıdır,
+
+fancier tree
+
+Tries her node'u array olan bir tree'dir.
+
+
+
+
 
 
 
