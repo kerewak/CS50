@@ -162,11 +162,16 @@ fancier tree
 
 Tries her node'u array olan bir tree'dir.
 
+constant time, O(1)
 
 
+typedef struct node
+{
+  char *number;
+  struct node *children[26];
+}
+node;
 
-
-
-
+node *trie;
 
 
