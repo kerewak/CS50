@@ -77,9 +77,9 @@ Python'da maloc, free veya bellek yönetimi gibi yapmamız gereken işlemleri py
 https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range
 
 
+data structers, dict, hash table etc. bilgisayar biliminin İsviçre çakısı gibidir. Bu bir şeyi başka bir şeyle ilişkilendirmemize yarar.
 
 
-
-
-
+Comma separated values (CSV)
+portable network graphics (PNG)
 
