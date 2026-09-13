@@ -13,3 +13,36 @@ Bir çok veritabanı var ama en basiti .csv file.
 
 Python aslında csv dosyaları için native support'a sahip.
 
+
+import csv
+
+with open("favorites.csv", "r") as file:
+  reader = csv.DictReader(file)
+  for row in reader:
+    favorite = row["language"]
+    print(favorite)
+
+
+
+import csv
+
+with open("favorites.csv", "r") as file:
+  reader = csv.DictReader(file)
+  counts = {}
+  for row in reader:
+    favorite = row["language"]
+    if favorite in counts:
+      counts[favorite] += 1
+    else:
+      counts[favorite] = 1
+
+for favorite in counts:
+  print(f"{favorite}: {counts[favorite]}")
+
+
+
+
+
+
+
+
