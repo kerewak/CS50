@@ -36,8 +36,78 @@ with open("favorites.csv", "r") as file:
     else:
       counts[favorite] = 1
 
-for favorite in counts:
+//def get_value(language):
+//return counts[language]
+
+for favorite in sorted(counts, key=lambda problem: counts[problem], reverse=True):
   print(f"{favorite}: {counts[favorite]}")
+
+
+Sadece bir kere kullanmak için bir fonksiyon oluşturmakla uğraşmak istemeyiz.
+Anonim bir fonksiyon, ismi yok, "lambda"
+
+
+lambda language: counts[language]
+
+lambda argüman: return
+
+
+
+
+
+relational database
+
+MySQL, PostgreSQL, Microsoft SQL, Server, Oracle, MariaDB
+
+
+SQL sadece dört temel şey yapar: CRUD
+
+CREATE
+READ
+UPDATE
+DELETE
+
+CREATE, INSERT
+SELECT
+UPDATE
+DELETE, DROP
+...
+
+
+CREATE TABLE table (column type, ...);
+
+
+
+sqlite3
+
+.mode csv
+.import FILE TABLE
+
+SELECT columns FROM table;
+
+
+SQL fonksiyonları
+
+AVG
+COUNT
+DISTINCT
+LOWER
+MAX
+MIN
+UPPER
+...
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
